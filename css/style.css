@@ -39,12 +39,14 @@ body{
     display: table;
     clear: both;
 }
+.row{
+    padding: 25px;
+}
 
 .col{
     float: left;
     width: calc(100% / 3);
     background-color: rgb(0, 0, 0);
-    
 }
 
 
