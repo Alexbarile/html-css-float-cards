@@ -24,6 +24,7 @@ body{
 .header h1{
     font-size: 35px;
     font-weight: 800;
+    font-weight: bold;
 }
 
 .header p{
@@ -46,10 +47,12 @@ body{
 .col{
     float: left;
     width: calc(100% / 3);
-    background-color: rgb(0, 0, 0);
+    padding: 0 30px;
 }
 
-
+.card{
+    background-color: black;
+}
 
 .foto{
     float: left;
@@ -59,17 +62,18 @@ body{
 
 .informazioni{
     color: white;
+    padding-left: 10px;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
-    padding: 5px;
+    
 }
 
 h4{
-    font-size: 15px;
-    padding: 5px;
+    font-size: 12px;
+
 }
 
 .email{
